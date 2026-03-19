@@ -1,0 +1,22 @@
+{
+  "sender": {
+    "email": "your_email@gmail.com",
+    "app_password": "xxxx xxxx xxxx xxxx"
+  },
+  "recipients": [
+    {
+      "name": "Alice Smith",
+      "email": "alice@example.com"
+    },
+    {
+      "name": "Bob Jones",
+      "email": "bob@example.com"
+    }
+  ],
+  "cc": [],
+  "email": {
+    "subject": "Hello from Python!",
+    "body_text": "Hi {name},\n\nThis is a plain text fallback message.\n\nBest regards,\nYour Name",
+    "body_html": "<html><body><p>Hi <strong>{name}</strong>,</p><p>This is an <em>HTML email</em> sent from Python.</p><p>Best regards,<br>Your Name</p></body></html>"
+  }
+}
